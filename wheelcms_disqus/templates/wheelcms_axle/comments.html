@@ -6,8 +6,7 @@
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
         var disqus_shortname = '{{disconf.shortname}}'; // required: replace example with your forum shortname
-        /// ### bind to id not path, in case of moving content!
-        var disqus_identifier = '{{content.pk}}';
+        var disqus_identifier = '{{disconf.shortname}}-{{content.pk}}';
 
         /* * * DON'T EDIT BELOW THIS LINE * * */
         (function() {
